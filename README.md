@@ -100,4 +100,3 @@ Alias to show the beautiful log
 ```
 l = !git log --pretty=format:'%C(yellow)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 ```
-
