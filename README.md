@@ -52,7 +52,6 @@ Edit your project file
 ```
 git config --local --edit 
 ```
-
-
+All the define settings in local file will prevail over else files.
 
 
