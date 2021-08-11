@@ -27,7 +27,7 @@ Edit system file
 git config --system --edit 
 ```
 
-Edit file user
+Edit user file
 
 ```
 git config --global --edit 
@@ -38,5 +38,21 @@ Define VScode as default editor
 ```
 git config --global core.editor code
 ```
+
+Define user in file
+
+```
+[user]
+  name = Matheus Dutra
+  email = matheusdutra0207@gmail.com
+```
+
+Edit your project file
+
+```
+git config --local --edit 
+```
+
+
 
 
