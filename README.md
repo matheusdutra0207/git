@@ -70,15 +70,18 @@ git status -s
 
 #### Add a alias in your global file 
 
-1º Open the file
+1º. Open the file
 ```
 git config --global --edit 
 ```
-2 º Edit
+2º. Edit
 ```
 [alias]
   s = !git status -s
-  c = !git add . && git commit -m
+  c = !git add --all && git commit -m
 ```
 
-
+Merge the next commit with last
+```
+git commit --amend --no-edit
+```
