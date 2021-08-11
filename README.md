@@ -85,3 +85,13 @@ Merge the next commit with last
 ```
 git commit --amend --no-edit
 ```
+## 3.
+
+## Log
+
+list projects' commits
+
+```
+git commit log --oneline
+```
+
