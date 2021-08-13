@@ -1,5 +1,5 @@
 # Git
-[the best course to learn git](https://www.youtube.com/playlist?list=PL9aKtVrF05DzbNiE7jcm7s6z6Lg-u72Rq)
+[The best course to learn git](https://www.youtube.com/playlist?list=PL9aKtVrF05DzbNiE7jcm7s6z6Lg-u72Rq)
 
 ## 1.
 
