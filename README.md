@@ -16,7 +16,7 @@ git remote add origin <url>
 
 ### Config
 
-Show all the you git settings
+Show all the git settings
 
 ```
 git config --list
