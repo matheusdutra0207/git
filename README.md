@@ -131,3 +131,12 @@ Remove files from workspace
 git reset --hard
 ```
 
+## Revert
+
+Revert a commit with another commit that undoes the changes. 
+
+```
+git revert <commit id>
+```
+
+
