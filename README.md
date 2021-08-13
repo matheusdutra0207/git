@@ -140,7 +140,7 @@ git revert <commit id>
 ```
 
 ## Checkout 
-Revert changes that are in the workspace and have already been commited 
+Revert changes that are in the workspace and have already been commited(are not untracked)
 
 ```
 git checkout <file name>
@@ -162,4 +162,18 @@ Create a new branch
 
 ```
 git checkout -b <branch name>
+```
+
+## Clean
+
+Shows the file to be removed
+
+```
+git clean -n
+```
+
+Remove untracked files
+
+```
+git clean -f
 ```
