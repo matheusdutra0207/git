@@ -139,6 +139,8 @@ Revert a commit with another commit that undoes the changes.
 git revert <commit id>
 ```
 
+# 5.
+
 ## Checkout 
 Revert changes that are in the workspace and have already been commited(are not untracked)
 
