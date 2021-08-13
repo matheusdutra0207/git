@@ -95,8 +95,39 @@ list projects' commits
 git commit log --oneline
 ```
 
-Alias to show the beautiful log
+Alias to show a beautiful log
 
 ```
 l = !git log --pretty=format:'%C(yellow)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 ```
+
+# 4.
+
+## Reset
+
+Revert the add command
+```
+git reset <file name>
+```
+
+Revert a commit returning the files to stage/index
+```
+git reset <id of the previous commit you want to remove> --soft
+```
+
+Revert a commit returning the files to workspace
+```
+git reset <id of the previous commit you want to remove> --mixed
+```
+
+Revert a commit undoing all the commit's changes
+```
+git reset <id of the previous commit you want to remove> --hard
+```
+
+Remove files from workspace
+
+```
+git reset --hard
+```
+
