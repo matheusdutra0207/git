@@ -139,4 +139,27 @@ Revert a commit with another commit that undoes the changes.
 git revert <commit id>
 ```
 
+## Checkout 
+Revert changes that are in the workspace and have already been commited 
 
+```
+git checkout <file name>
+```
+
+Open the project in a specific commit(The command below open a new branch with the project in the specific commit)
+
+```
+git checkout <commit id or tag name>
+```
+
+Change to a branch 
+
+```
+git checkout <branch name>
+```
+
+Create a new branch
+
+```
+git checkout -b <branch name>
+```
